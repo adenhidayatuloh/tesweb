@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aden Hidayatuloh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="projects">
+            <h2>My Latest Project</h2>
+            <article class="project" data-images="Assets/esmartcare-1.png,Assets/esmartcare-2.png,Assets/esmartcare-3.png">
+                <img src="Assets/esmartcare.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>E-Smartcare (Stunting detection application)</h3>
+                    <p>
+                        E-Smartcare is a stunting detection application project, based on Android. The technology used
+                        is flutter on mobile, and golang on the server side. In this application there are features such
+                        as stunting detection based on photos, to AI chat bots using the concept of information
+                        retrieval.
+                    </p>
+                </div>
+            </article>
+
+            <article class="project"
+                data-images="Assets/sehati-1.png,Assets/sehati-2.png,Assets/sehati-3.png,Assets/sehati-4.png,Assets/sehati-5.png">
+                <img src="Assets/sehati.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Sehati Sehat (Health Check Application)</h3>
+                    <p>
+                        Sehati Sehat is a health application designed to help patients, admins, and health workers in
+                        various activities related to disease detection, health monitoring, emergency response services,
+                        and health data management. This software is designed to detect diseases in humans using a
+                        combination of expert system technology and machine learning.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <aside id="about">
+            <h2>About Me</h2>
+            <div class="about-image-wrapper">
+                <img src="Assets/profile.png" alt="Profile Picture" class="about-image">
+            </div>
+            <br>
+            <p>
+                My name is Aden Hidayatuloh, a student at Universitas Amikom Purwokerto majoring in Informatics. I have
+                a deep passion for backend development, with Golang being my preferred programming language.
+            </p>
+        </aside>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Contact Me</h3>
+                <p>Let's connect! Reach out to me on my GitHub or WhatsApp.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/adenhidayatuloh" target="_blank" class="footer-icon github">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+                    GitHub
+                </a>
+                <a href="https://wa.me/6287722572506" target="_blank" class="footer-icon whatsapp">
+                    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" />
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Aden Hidayatuloh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3 class="popup-title"></h3>
+            <br>
+            <div class="popup-gallery">
+                <button class="prev-btn">&lt;</button>
+                <img class="popup-image" src="" alt="Project Image">
+                <button class="next-btn">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

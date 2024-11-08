@@ -1,0 +1,2 @@
+Pada kode javascript, kebanyakan untuk fitur on click pada setiap list project.
+Jika di klik untuk setiap project, akan menampilkan suatu popup berisi galeri gambar project tersebut, dengan bisa berpindah ke gambar project yang lain.
